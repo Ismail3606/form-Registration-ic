@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  
+        <h1>Student Registration Form</h1><hr>
+        <div class="container"></div>
+       
+<div class="left">
+         
+    <form>
+       
+    <h2>Please enter relevent information</h2>
+        <label for="District">Mandatory Field*<br>
+            District (Institute District: Where you want to do your course)*</label><br>
+            
+<select id="district" name="district">
+    <option disabled="disabled" selected="selected">---Choose option </option>
+  <option value="chittagong">chittagong</option>
+  <option value="Dhaka">Dhaka</option>
+  <option value="Khulna">Khulna</option>
+  <option value="Syhlets">Syhlets</option>
+</select><br>
+
+<label for="Course">Course*</label><br>
+    
+<select id="Course" name="Course">
+<option disabled="disabled" selected="selected">---Choose option </option>
+<option value="volvo">web devlopment</option>
+<option value="saab">Web design</option>
+<option value="fiat">Graphic design</option>
+<option value="audi">Digital marketing</option>
+</select><br>
+
+
+
+
+
+
+
+    <label for="fname">Student Name*</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Father Name*</label><br>
+  <input type="text" id="lname" name="lname"><br>
+  <label for="lname">Mother Name*</label><br>
+  <input type="text" id="lname" name="lname"><br>
+
+  <label for="date_of_birth">Date of Birth*</label> <br>
+  <input type="date" name="" id="date_of_birth" required> <br>
+
+    <span>Gender</span>
+  <input type="radio" id="Male" name="fav" value="Male">
+  <label for="Male">Male</label>
+  <input type="radio" id="Female" name="fav_language" value="Female">
+  <label for="Female">Female</label><br>
+
+  <span>Physically Handicapped* </span>
+  <input type="radio" id="Yes" name="fav1" value="Yes">
+  <label for="Yes">Yes</label>
+  <input type="radio" id="No" name="fav1" value="No">
+  <label for="No">No</label><br>
+
+  <label for="Email">Email**</label><br>
+  <input type="text" id="Email" name="fname"><br>
+   <span>e.g: example@mail.com</span><br>
+ 
+   <label for="Phone"></label>Phone (Must be 11 Digits)*</label><br>
+   <input type="text" id="Phone" name="fname"><br>
+   <span>(e.g:0155123456)</span>
+
+
+
+
+   
+ 
+
+</form>
+     
+
+</div>
+<div class="right">
+    
+
+    <form>
+        <label for="Course">Identification Type*</label><br>
+        <select id="Identification Type" name="Identification Type">
+            <option disabled="disabled" selected="selected">---Choose option </option>
+            <option value="birth certificate">birth certificate</option>
+            <option value="NiD">Nid</option>
+           
+            </select><br>
+
+            <label for="nid no">Identification No. (Must be 10 digits for new NID or 17 digits for old NID. If your National ID is 13 digits, then please add your birth year with the ID as prefix. Example: 1980XXXXXXXXXXXXX)*</label><br>
+  <input type="text" id="nid no" name="nid no"><br>
+
+  <label for="Home District*">Home District*</label><br>
+  <select id="Home District*" name="Home District*e">
+      <option disabled="disabled" selected="selected">---Choose option </option>
+      <option value="chittagong">chittagong</option>
+      <option value="dhaka">dhaka</option>
+     
+      </select><br>
+
+      <label for="Upazila**">Upazila**</label><br>
+  <select id="Upazila**" name="Upazila*">
+      <option disabled="disabled" selected="selected">---Choose option </option>
+      <option value="Rouzan">Rouzan</option>
+      <option value="hathazari">hathazari</option>
+     
+      </select><br>
+
+      <label for="Village/House No./Road No./Other Alternative*">Village/House No./Road No./Other Alternative**</label><br>
+  <input type="text" id="Village/House No./Road No./Other Alternative*" name="fname"><br>
+
+  <label for="Post Office*">Post Office***</label><br>
+  <input type="text" id="Post Office**" name="fname"><br>
+
+
+  <label for="Educational Qualification* (Higher Lev">Educational Qualification* (Higher Level*</label><br>
+  <select id="Educational Qualification* (Higher Lev*" name="Upazila*">
+      <option disabled="disabled" selected="selected">---Choose option </option>
+      <option value="hsc">hsc</option>
+      <option value="Bechelopr">Bechelor</option>
+      <option value="masters">masters</option>
+     
+      </select><br>
+
+      <span>Have any computer?*  </span>
+      <input type="radio" id="Yes" name="fav1" value="Yes">
+      <label for="Yes">Yes</label>
+      <input type="radio" id="No" name="fav1" value="No">
+      <label for="No">No</label><br>
+
+      <label for="Photograph">Photograph*</label> <br>
+     <input type="file" name="" id="photograph"> <br>
+
+     <label for="signature">Signature*</label> <br>
+     <input type="file" name="" id="signature"> <br>
+
+     <Button>Submit Data</Button>
+    
+    </form>
+
+
+
+            
+</div>
+
+</div>
+
+        
+</body>
+</html>
